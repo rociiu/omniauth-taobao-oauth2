@@ -5,7 +5,7 @@ module OmniAuth
     class Taobao < OmniAuth::Strategies::OAuth2
       option :name, 'taobao'
       option :client_options, {
-        :site           => "https://oauth.taobao.com",
+        :site           => "https://oauth.tbsandbox.com",
         :authorize_url  => "/authorize",
         :token_url      => "/token"
       }
